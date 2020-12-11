@@ -1,0 +1,80 @@
+/*----by meera----*/
+/*----table1----*/
+  table, th, td {
+      border: 1px solid whitesmoke;
+      border: top radious 3px;
+      }
+
+    .thead th{
+        color: white;
+        background-color: #053b54;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-color: #0c9711;
+
+    }
+    th,td{
+      background-color: #607d8b6e;  
+      padding: 10px;   
+    }
+    /*....table2 using class id...*/
+  #t02{ 
+      background-color: #FFEB3B;
+      border: 2px solid black;
+      border-collapse: collapse;
+     
+  }
+  #t02 thead{
+      color: purple;
+  }
+
+  /*....table 3 using class....*/
+  .timetable th{
+      color:black;
+      background-color:rgb(129, 106, 70) ;
+  }
+
+  .timetable tr:nth-child(even){
+      background-color: greenyellow;
+  }
+
+  .timetable tr:nth-child(odd){
+      background-color: lightgreen;
+  }
+  /*table4....practice*/
+  .table4 {
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    font-weight: 200;
+    border-radius: 5px;
+}
+ .table4 th{
+    color:rgb(37, 37, 134);
+ }
+
+ /*---table7---*/
+ .tb_7{
+     color: whitesmoke;
+     background-color: rgba(243, 108, 19, 0.979);
+ } 
+ .tb_7 tr:nth-child(even){
+     background-color: rgba(241, 166, 80, 0.295);
+ }
+ .tb_7 tr:nth-child(odd){
+     background-color: rgb(207, 174, 143);
+ }
+
+  /*.....table8....*/  
+  .tb_8 th{
+      color: rgb(8, 41, 8);
+      background-color: rgba(73, 172, 78, 0.664);
+  }
+  .tb_8 tr:nth-child(even){
+      background-color:rgb(92, 168, 92) ;
+  }
+  .tb_8 tr:nth-child(odd){
+      background-color: rgb(72, 104, 72);
+  }
+
+
+ 

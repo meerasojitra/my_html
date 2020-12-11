@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+/* This style sets the width of all images to 100%: */
+img {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<h2>Width/Height Attributes or Style?</h2>
+
+<p>The first image uses the width attribute (set to 150 pixels), but the style in the head section overrides it, and sets the width to 100%.</p>
+
+<img src="img/apple.jpg" alt="apple" width="150" height="150">
+
+<p>The second image uses the style attribute to set the width to 150 pixels, this will not be overridden by the style in the head section:</p>
+
+<img src="img/apple.jpg" alt="apple" style="width:150px;height:150px;">
+
+<p>Third image uses only width attribute</p>
+<img src="img/apple.jpg" alt="apple" style="width:150px;">
+
+<p>Fourth image uses only height attribute to set height to 150pixels, this will be overrides and sets the width to 100%:</p>
+<img src="img/apple.jpg" alt="apple" style="height:150px;">
+
+<p><strong>image float property:</strong></p>
+<p>float:right property</p>
+<img src="img/apple.jpg" alt="apple" style=" float:right;width: 75px;">
+<br/>
+<p>float:left property</p>
+<img src="img/apple.jpg" alt="apple" style=" float:left;width: 75px;">
+</body>
+</html>
