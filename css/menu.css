@@ -1,0 +1,253 @@
+body{
+    margin: 0px;
+}
+/*navgation1*/
+.nav_1 ul {
+    list-style-type: none;
+    display: inline-block;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav_1 li{
+    float: left;
+}
+.nav_1 li a{
+    display: block;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 8px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.nav_1 li a:hover  {
+    background-color: rgb(68, 105, 46) ;
+    color:rgb(238, 178, 88);
+}
+/*navigation2*/
+.nav_2 ul {
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgba(21, 7, 54, 0.918);
+    width: 100%;
+    padding: 15px;
+}
+.nav_2 li{
+    float: right;
+}
+.nav_2 li a{
+    
+    color: rgb(248, 244, 238);
+    text-transform: uppercase;
+    padding: 12px;
+    margin: 3px;
+    font-family: cursive;
+    font-size: small;
+    text-decoration: none;
+}
+.nav_2 li a:hover{
+    color:  rgb(248, 244, 238);
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+/*navigation3*/
+.nav_3 ul{
+    list-style-type: none;
+   display: inline-block; 
+}
+.nav_3 li{
+    float: left;
+}
+.nav_3  li a{
+    text-align: center;
+    color: rgb(15, 13, 13);
+    text-decoration: none;
+    line-height: 15px;
+    font-family: fantasy;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+.nav_3 li a:hover{
+    background-color: rgb(165, 188, 231);
+    border: 2px solid rgb(37, 92, 163);
+    border-top-left-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+/*navigation4*/
+.nav_4 ul{
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgba(4, 88, 8, 0.719);
+    width: 100%;
+    margin: 0px;
+    padding: 11px;
+}
+.nav_4 li{
+    float: left;
+}
+.nav_4 ul li a{
+    text-decoration: none;
+    padding:7px;
+    margin:5px;
+    color: #000;
+    font-style: italic;
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.nav_4 ul li a:hover{
+    color: rgb(243, 241, 241);
+    border-bottom: 2px solid rgba(24, 71, 26, 0.719); 
+}
+.nav_4 ul li a:active{
+    background-color:rgba(48, 75, 50, 0.404);
+    color: rgb(243, 241, 241);
+    border-bottom: 2px solid rgba(24, 71, 26, 0.719); 
+}
+/*navigatiion5*/
+.nav_5 ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding-inline-start: 60zpx;
+}
+.nav_5 li{
+    float: left;
+}
+.nav_5 ul li a{
+    display: block;
+    padding: 0 10px;
+    border-left: 1px solid #e6e6e6;
+    color: #4c4743;
+    font-size: 18px;
+    font-style: italic;
+    font-family: system-ui;
+    text-decoration: none;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.nav_5 ul li a:hover{
+    background-color: #221f1f;
+    border-color: #221f1f;
+    color: white;
+}/*
+.orange{
+    background-color:#fc712c ;
+}*/
+
+/* ask to sir...diff. hover can be applied or not
+.nav_5_contat_us a:hover{
+color: white;
+background-color: #fc712c;
+border-color: #fc712c;
+}     */  
+/*navigation6 */
+.nav_6 ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 100;
+    margin-top: 0;
+}
+.nav_6 li{
+    float: left;
+}
+.nav_6 ul li a{
+    display: block;
+    background-color: #4C4648;
+    color: #efd24a;
+    border-left: 1px dashed #cfa840;
+    outline: 2px dashed #CFA840; 
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    padding: 12px;
+    font-family:cursive;
+    text-decoration: none;
+    line-height: 20px;
+    
+    text-transform: capitalize;
+}
+.nav_6 ul li a:hover{
+    background-color: #221f1f;
+    border-color: #221f1f;
+    color: #AF9B41;
+}  
+/*navigation 7*/
+.nav_7 ul{
+    list-style-type:none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding-inline-start: 10px;
+}
+.nav_7 li{
+    float: right;
+}
+.nav_7 ul li a{
+    display: block;
+    padding: 0 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+.nav_7 ul li a:hover{
+    background-color: #6e2659;
+    color: white;
+    border-color: rgb(10, 10, 10);
+    border-radius: 10px;
+}  
+/*navigation 8 */
+.nav_8 ul{
+    list-style-type:none;
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+}
+.nav_8 li{
+    float:left;
+}
+/*
+.nav_8 ul li a{
+    display: block;
+    padding: 7px;
+    font-family:monospace;
+    font-family: revert;
+    font-style: revert;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: darkkhaki;
+    color: unset;
+    
+}*/
+.nav_8 ul li a{
+background-color: #371C1C;
+border-right: 2px solid #2e0808;
+padding-right: 32px;
+padding-left: 32px;
+display: block;
+line-height: 40px;
+text-decoration: none;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 18px;
+color: #7e5353;
+}
+.nav_8 ul li a:hover{
+    background-color:#7e5353;
+    color:#371C1C;
+    
+}  
