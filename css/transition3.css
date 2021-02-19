@@ -1,0 +1,55 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    transition: width 3s;
+}
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    transition: width 3s;
+}
+.div3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(67, 177, 103);
+    transition: width 3s;
+}
+.div4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(121, 59, 88);
+    transition: width 3s;
+}
+.div5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(218, 236, 111);
+    transition: width 3s;
+}
+
+.div1:hover{
+    width: 700px;
+    transition-timing-function: linear;
+}
+
+.div2:hover{
+    width: 700px;
+    transition-timing-function: ease-in-out;
+}
+
+.div3:hover{
+    width: 700px;
+    transition-timing-function: ease;
+}
+
+.div4:hover{
+    width: 700px;
+    transition-timing-function: ease-in;
+}
+
+.div5:hover{
+    width: 700px;
+    transition-timing-function: ease-out;
+}

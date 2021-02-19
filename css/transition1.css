@@ -1,0 +1,26 @@
+.ball1{
+        background: #9b526f;
+        border-radius: 50%;
+        position: absolute; 
+        top: 0px; 
+        left: 00px;
+        width: 200px; 
+        height: 200px; 
+        /*transition:left .2s;*/
+}
+
+.ball2 {
+    background: #86bac9;
+    border-radius: 50%;
+    position: absolute; 
+    top: 100px; 
+    left: 300px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .ball:active .ball1 {
+    left: 700px;
+    transition: left .2s ease-out;
+   /* transition-timing-function: ease-out;*/
+  }

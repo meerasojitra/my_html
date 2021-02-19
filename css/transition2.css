@@ -1,0 +1,10 @@
+.rect{
+    width: 100px;
+    height: 100px;
+    background: rgb(204, 235, 131);
+    transition: width 2s, height 4s;
+}
+.rect:hover{
+    width:300px;
+    height:300px;
+}
